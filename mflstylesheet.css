@@ -1,0 +1,85 @@
+ 
+ 
+.hidden{
+  visibility: hidden;
+}
+
+body {
+  font-family: Cambria, "Times New Roman", serif;
+  margin: 20px 150px 10px 150px;
+  padding: 10px 150px 10px 150px;
+  text-align: left;
+}
+header { 
+  background-color: rgba(128,0,10,0.70);
+  color: rgba(255,255,255,1.0);
+  font-family: verdana, sans-serif;
+  text-align: left;
+  padding-top: 35px;
+  padding-bottom: 25px;
+  }
+
+input {   
+    font-size: 125%;
+    padding: 15px 25px;
+    border-radius: 15px;
+    background-color: rgba(128,0,10,0.70);
+    color: rgba(255,255,255,1.0);
+    margin: 15px auto 15px auto;
+  }
+
+header img {
+  float: left;
+  position: relative;
+  top: -25px;
+  padding: 0 10px 0 10px;
+  height: 120px;
+  width: 120px;
+}
+ 
+main {
+  background-color: rgba (255,255,240,0.30);
+  padding: 0px 25px 0px 25px;
+  text-align: left;
+}
+ main h2 {
+    color: rgba(16, 78, 150, 0.70);
+    font-family: verdana;
+    font-size:120%;
+    border-bottom: 2px solid;
+    padding-top: 25px;
+}
+ main h3 {
+    font: bold 18px/18px Cambria, serif;
+    display: inline; 
+    color: rgba(120,120,120,0.70);
+    padding-right: 50px;
+}
+ main h4 {
+   font: italic 16px/18px Cambria, serif;
+   display: inline; 
+   color: rgba(120,120,120,0.70);
+}
+  main li {
+    list-style-type: square;
+  }
+  main .column {
+    -webkit-columns: 40px 2;
+    -moz-columns: 40px 2;
+    columns: 40px 2;
+  }
+  #tab {
+    display: inline-block;
+    margin-left: 40px;
+  }
+footer {
+  background-color: rgba(128,0,10,0.70);
+  color: rgba(255,255,255,1.0);
+  font-family: verdana, sans-serif;
+  text-align: center;
+  font-size: 70%;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  }
+ 
